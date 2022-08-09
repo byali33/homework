@@ -4,67 +4,47 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
 body {
     width: 100%;
     height: 100%;
 }
-
 .header {
-
     height: 100vh;
     background-image: url(/img/bgHome.png);
     background-position: center;
     background-size: cover;
-
 }
-
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-
 .logo1 img {
     width: 60px;
     margin-left: 60px;
     margin-top: 20px;
 }
-
 .home ul {
     margin-top: 20px;
     margin-left: -200px;
 }
-
 .home ul li {
     display: inline-block;
-
 }
-
-
-
 .home ul li a {
     text-decoration: none;
     color: #fff;
     margin: 0px 15px;
     transition: .4s;
 }
-
 .home ul li a:hover {
     color: crimson;
-
 }
-
-
-
 .navbar__right {
     display: flex;
     align-items: center;
     margin-top: 20px;
-
 }
-
 .navbar__right select {
     background-color: transparent;
     color: #fff;
@@ -73,18 +53,15 @@ body {
     margin-right: 20px;
     cursor: pointer;
 }
-
 .navbar__right a {
     text-decoration: none;
     color: #fff;
     margin-right: 20px;
     transition: .4s;
 }
-
 .navbar__right a:hover {
     color: crimson;
 }
-
 .navbar__right button {
     padding: 10px 25px;
     border-radius: 30px;
@@ -96,14 +73,11 @@ body {
     cursor: pointer;
     transition: .4s;
 }
-
 .navbar__right button:hover {
     background-color: #fff;
     color: #316DA6;
     border: 1px solid #316DA6;
-
 }
-
 .navbar__sepet {
     background-color: crimson;
     padding: 6px 16px;
@@ -111,15 +85,10 @@ body {
     color: #fff;
     margin-right: 80px;
     cursor: pointer;
-
 }
-
 .main {
     display: flex;
-
-
 }
-
 .main__right img:first-child {
     width: 300px;
     position: absolute;
@@ -127,43 +96,30 @@ body {
     right: 300px;
     z-index: 1;
 }
-
-
-
 .main__right img:last-child {
     width: 510px;
     position: absolute;
     right: 0;
     top: 150px;
-
 }
-
 .main__left {
     margin-left: 60px;
     color: #fff;
     margin-top: 80px;
-
 }
-
 .main__left h1 {
     line-height: 50px;
     font-size: 40px;
-
 }
-
 .main__left .text {
     color: yellow;
-
 }
-
 .main__left .text span {
     color: #fff;
 }
-
 .main__left p {
     margin-top: 40px;
 }
-
 .main__left button {
     margin-top: 30px;
     padding: 14px 36px;
@@ -174,52 +130,38 @@ body {
     cursor: pointer;
     font-weight: bold;
     transition: .4s;
-
 }
-
 .main__left button:hover {
     background-color: #316DA6;
     color: #fff;
     border: 1px solid #fff;
 }
-
 .content {
-
     height: 100vmax;
     background-image: url(/img/bgContent.png);
     background-position: center;
     background-size: cover;
     margin-top: 100px;
     position: relative;
-
-
-
-
 }
-
 .back {
     color: #fff;
     text-align: center;
     position: relative;
     top: 60px;
 }
-
 .back h1 {
     font-weight: 300;
-
 }
-
 .back h1 span {
     font-weight: 600;
 }
-
 .back p {
     margin: 20px 250px;
     line-height: 25px;
     font-weight: 300;
     font-size: 14px;
 }
-
 .front {
     position: relative;
     width: 1000px;
@@ -228,9 +170,7 @@ body {
     border-radius: 30px;
     margin: 130px 180px;
     box-shadow: 0px 0px 20px;
-
 }
-
 .metin1 {
     display: inline-block;
     background-color: transparent;
@@ -239,12 +179,10 @@ body {
     margin: 80px 0px 90px 80px;
     position: relative;
 }
-
 .metin1 p {
     margin: 20px 0px;
     font-size: 14px;
 }
-
 .metin1 button {
     padding: 10px 25px;
     border-radius: 30px;
@@ -255,31 +193,23 @@ body {
     cursor: pointer;
     transition: .4s;
 }
-
 .metin1 button:hover {
     background-color: #fff;
     color: #316DA6;
     border: 1px solid #316DA6;
-
 }
-
-
 .content__img1 img {
     width: 50%;
     position: absolute;
     top: 80px;
     right: 50px;
-
 }
-
 .content__img2 img {
     width: 40%;
     position: absolute;
     top: 400px;
     left: 100px;
-
 }
-
 .metin2 {
     display: inline-block;
     background-color: transparent;
@@ -288,12 +218,10 @@ body {
     margin: -180px 0px 0px 550px;
     position: relative;
 }
-
 .metin2 p {
     margin: 20px 0px;
     font-size: 14px;
 }
-
 .metin2 button {
     padding: 10px 25px;
     border-radius: 30px;
@@ -304,14 +232,12 @@ body {
     cursor: pointer;
     transition: .4s;
 }
-
 .metin2 button:hover {
     background-color: #fff;
     color: #316DA6;
     border: 1px solid #316DA6;
 
 }
-
 .metin3 {
     display: inline-block;
     background-color: transparent;
@@ -320,12 +246,10 @@ body {
     margin: -30px 0px 0px 80px;
     position: relative;
 }
-
 .metin3 p {
     margin: 20px 0px;
     font-size: 14px;
 }
-
 .metin3 button {
     padding: 10px 25px;
     border-radius: 30px;
@@ -336,36 +260,30 @@ body {
     cursor: pointer;
     transition: .4s;
 }
-
 .metin3 button:hover {
     background-color: #fff;
     color: #316DA6;
     border: 1px solid #316DA6;
-
 }
-
 .content__img3 img {
     width: 40%;
     position: absolute;
     bottom: 30px;
     right: 70px;
-
 }
-
 .content2 {
     position: relative;
     margin-top: 10px;
     height: 100vh;
     background-color:aliceblue;
     box-shadow: 0px 2px 6px;
-   
-
 }
 
 .baslik {
     position: absolute;
-    margin-top: 20px;
+    margin-top: 60px;
     text-align: center;
+    z-index: 1;
 }
 
 .baslik h1 {
@@ -395,107 +313,42 @@ body {
 .client {
     background-color: aliceblue;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
     
-
 }
-
-.personel {
+.personel{
+    float:left;
+    display: block;
     width: 33%;
+    height: 200px;
     border-radius: 20px;
     text-align: center;
-    margin-top: 180px;
     background-color:#fff;
-    margin-top: 80px;
-   
+    margin: 100px 20px 0px 20px;
+    box-shadow: 2px 2px 20px 1px gray;
 
 }
-
-.personel img {
-    width: 70px;
-    margin-top: -50px;
-
-}
-
 .personel h2 {
-    font-size: 20px;
+    font-size: 16px;
     padding: 0px 20px 10px;
-
 }
-
+.personel img {
+    margin-top: -50px;
+    width: 70px;
+    box-shadow: 2px 2px 20px 1px gray;
+    border-radius: 50%;
+}
 .personel p {
-    font-size: 14px;
+    color: gray;
+    font-size: 13px;
     font-weight: 500;
-    padding: 10px 18px;
+    padding: 10px 20px;
     letter-spacing: 1px;
     line-height: 20px;
-
 }
-
-.personel2 {
-    background-color:#fff;
-    width: 33%;
-    border-radius: 20px;
-    text-align: center;
-    margin-top: 80px;
-    
-    
- 
-}
-
-.personel2 img {
-    margin-top: -50px;
-    width: 70px;
-}
-
-.personel2 h2 {
-    font-size: 20px;
-    padding: 0px 20px 10px;
-
-}
-
-.personel2 p {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 10px 18px;
-    letter-spacing: 1px;
-    line-height: 20px;
-
-}
-
-.personel3 {
-    background-color:#fff;
-    width: 33%;
-    border-radius: 20px;
-    text-align: center;
-    margin-top: 80px;
-  
-}
-.personel3 img {
-    margin-top: -50px;
-    width: 70px;
-
-}
-
-.personel3 h2 {
-    font-size: 20px;
-    padding: 0px 20px 10px;
-
-}
-
-.personel3 p {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 10px 18px;
-    letter-spacing: 1px;
-    line-height: 20px;
-
-}
-
 .logo2{
 position: absolute;
 bottom: 60px;
@@ -503,12 +356,75 @@ display: inline-block;
 justify-content: space-between;
 align-items: center;
 margin-left:250px;
-}
 
+}
 .logo2 img{
     margin: 0px 40px;
     text-align: center;
     background-color: transparent;
-    width: 80px;
+    width: 100px;
     cursor: pointer;
 }
+.star span{
+    width: 18px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.footer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/bgFooter.png);
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+.submit{
+    width: 900px;
+    height: 240px;
+    background-color: rgb(170, 210, 245);
+    border-radius: 20px;
+    margin: 20px 40px 0px 240px ;
+    
+    
+}
+
+.submit h1{
+    margin-top: 20px;
+}
+
+.submit p{
+    margin: 10px 150px;
+    line-height: 20px;
+}
+
+.submit input{
+    width: 700px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 10px 60px;
+    border: 1px solid lightblue;
+    outline: none;
+    margin-top: 20px;
+    box-shadow: 0px 0px 30px 2px lightgrey;
+
+}
+
+.submit button{
+    padding: 10px 26px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #316DA6;
+    border: 1px solid #316DA6;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+    margin-left: -155px;
+}
+
+.submit button:hover {
+    background-color: #fff;
+    color: #316DA6;
+    border: 1px solid #316DA6;}
